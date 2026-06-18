@@ -27,6 +27,7 @@ contains
     q=cfg%q_particle; m=cfg%m_particle
 
     dxdt=0.0_dp; dydt=0.0_dp; dzdt=0.0_dp; dvpardt=0.0_dp
+   ! velocidades iniciales de los drifts y aceleración paralela
 
     if (fs%bmag <= 0.0_dp) return
     ! B square
