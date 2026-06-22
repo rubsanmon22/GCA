@@ -51,7 +51,7 @@ contains
        bxg=fs%bhy*fs%gradb_z - fs%bhz*fs%gradb_y
        byg=fs%bhz*fs%gradb_x - fs%bhx*fs%gradb_z
        bzg=fs%bhx*fs%gradb_y - fs%bhy*fs%gradb_x
-       vgbx=(mu/(q*fs%bmag))*bxg; vgby=(mu/(q*fs%bmag))*byg; vgbz=(mu/(q*fs%bmag))*bzg
+       vgbx=((mu*m)/(q*fs%bmag))*bxg; vgby=((mu*m)/(q*fs%bmag))*byg; vgbz=((mu*m)/(q*fs%bmag))*bzg
     end if
 
     ! (bxk, byk, bzk) =  b x kappa: kappa = b . grad b
