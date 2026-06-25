@@ -23,18 +23,18 @@
   bx0 = 0.0d0
   by0 = 0.0d0
   bz0 = 1.0d0
-  ex0 = 3.0d0
+  ex0 = 0.0d0
   ey0 = 0.0d0
   ez0 = 0.0d0
 
   ! Particulas.
-  npart       = 100
+  npart       = 1000
   nsteps      = 200
   dt          = 1.0d-3
-  temperature = 1.0d0
-  q_particle  = 1.0d0
-  m_particle  = 1.0d0
-  kb          = 1.0d0
+  temperature = 0.0d0
+  q_particle  = -1.602d-19
+  m_particle  = 9.109d-31
+  kb          = 1.381d-23
 
   ! Terminos de centro guia.
   use_exb_drift       = .true.
